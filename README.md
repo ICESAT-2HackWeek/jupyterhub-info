@@ -18,14 +18,17 @@ Run the following code to re-create the environment locally:
 https://docs.conda.io/en/latest/miniconda.html
 ```
 
-2) Create a conda environment (on a mac)
+2) Create a conda environment (**NOTE:** on a Mac replace `environment.yml` with `environment-mac.yml` in the command below)
 ```
-conda env create -f environment-mac.yml
+conda env create -f environment.yml
 ```
 
-3) Activate the environment
+3) Activate the environment and install jupyter lab extensions
 ```
 conda activate icesat2-hackweek
+jupyter labextension install @jupyter-widgets/jupyterlab-manager \
+                             @pyviz/jupyterlab_pyviz v0.7.2 \ 
+                             jupyter-leaflet 
 ```
 
 4) Launch Jupyter Lab
