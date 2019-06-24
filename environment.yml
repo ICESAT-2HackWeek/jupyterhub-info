@@ -1,4 +1,4 @@
-name: base
+name: icesat2-hackweek
 channels:
   - conda-forge/label/broken
   - conda-forge
