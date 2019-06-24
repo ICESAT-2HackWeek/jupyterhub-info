@@ -26,9 +26,13 @@ conda env create -f environment.yml
 3) Activate the environment and install jupyter lab extensions
 ```
 conda activate icesat2-hackweek
+jupyter serverextension enable --py nbserverproxy --sys-prefix
 jupyter labextension install @jupyter-widgets/jupyterlab-manager \
-                             @pyviz/jupyterlab_pyviz v0.7.2 \ 
-                             jupyter-leaflet 
+                             @jupyterlab/hub-extension \
+                             @pyviz/jupyterlab_pyviz \
+                             jupyter-matplotlib \
+                             jupyter-leaflet \
+                             dask-labextension
 ```
 
 4) Launch Jupyter Lab
@@ -48,6 +52,10 @@ ResolvePackageNotFound:
   - libstdcxx-ng=7.3.0
   - libgcc-ng=7.3.0
 ```
+
+#### Docker image
+The docker image of the environment used during the hackweek can be found here:
+https://cloud.docker.com/u/uwhackweeks/repository/docker/uwhackweeks/icesat2
 
 
 
