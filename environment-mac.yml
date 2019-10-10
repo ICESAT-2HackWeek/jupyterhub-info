@@ -213,7 +213,6 @@ dependencies:
   - pyopenssl=19.0.0
   - pyparsing=2.4.0
   - pyproj=1.9.6
-  - pyqt=4.11.4
   - pyrsistent=0.14.10
   - pyshp=2.1.0
   - pysocks=1.7.0
@@ -231,7 +230,6 @@ dependencies:
   - pywavelets=1.0.3
   - pyyaml=5.1
   - pyzmq=17.1.2
-  - qt=4.8.7
   - qtconsole=4.5.1
   - rasterio=1.0.24
   - readline=7.0
