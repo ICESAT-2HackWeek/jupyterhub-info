@@ -1,4 +1,4 @@
-# JupyterHub for Icesat-2 Hackweek
+# JupyterHub for 2019 Icesat-2 Hackweek
 
 During the [Icesat-2 hackweek](https://icesat-2hackweek.github.io/) we are going to use a common computational environment running on Amazon Web Services: [https://icesat2.pangeo.io](https://icesat2.pangeo.io). This is a JupyterHub with a common and reproducible Python environment. This repo has some information about the Hub, and a copy of the Python environment file in case you want to run things on your personal computer.
 
